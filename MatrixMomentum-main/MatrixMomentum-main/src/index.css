@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: local("Sofia Pro"), url(./assets/fonts/sofiapro-light.otf);
+}
+
+@font-face {
+  font-family: "Cavier";
+  src: url(./assets/fonts/Calvier.ttf);
+}
+
+body {
+  background-color: #00150f;
+  overflow-x: hidden;
+}
+
+.wallet::-webkit-scrollbar {
+  height: 3px;
+}
+
+.wallet::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.wallet::-webkit-scrollbar-thumb {
+  background: #1B2D29;
+}
+
+.wallet::-webkit-scrollbar-thumb:hover {
+  background: #172824;
+}
